@@ -1,0 +1,60 @@
+
+<html lang="es" >
+    <head>
+        <title>Galeria os favoritos </title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página que contine etiquetas del tipo html5 y luego enlaces o definicion de estilos css">
+        <meta name="keywords" content="html5, css3">
+        <link href="css/estilosGaleria.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body id="fondo" >
+        
+        <header id="encabezado">
+            <center><h1>Galeria Os Favoritos </h1></center> 
+            <center><p style="font-family: cursive; color: whitesmoke;  font-size: 30" >Por favor anota tus datos personales y dudas en el formulario de abajo, tambien podras encontrar nuestra ubicacion fisica acontinuacion </p></center> 
+            <hr size="2px" color="whitesmoke" />
+        </header> 
+        <center><div class="submenu">
+            <a href="MainMenu.html">Menu Principal</a>
+        </div>
+        <section>
+            
+            <form id="Formulario" action="#" method="POST">
+            <label>Nombre</label>
+            <input placeholder="nombre" type="text" name="nombre" value="" size="40" />
+            <br/>
+            <label>Apellidos</label>
+            <input placeholder="apellidos" type="text" name="apellidos" value="" size="40" />
+            <br/>
+            <label>Correo</label>
+            <input placeholder="correo@abc.com" type="email" name="correo" value="" size="40" />
+            <br/>
+            <textarea name="dudas" rows="20" cols="50">
+            Escriba aca sus preguntas
+            </textarea>
+            <br/>
+            <input type="submit" value="Enviar" />
+            <br/>
+        </form>
+            
+            <article  id="Maps">
+                <header><h3 style="color: whitesmoke"> Galería 2258, localizacion fisica </h3></header>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15720.005718363178!2d-84.0895915!3d9.9338381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbfc1f8c676d2e204!2sGaler%C3%ADa%202258!5e0!3m2!1ses-419!2scr!4v1665375798279!5m2!1ses-419!2scr" 
+                        width="600"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <footer style="color: whitesmoke" >La ubicacion de Galería 2258 en Google maps</footer>
+            </article>
+                
+        </section>
+    
+        
+        <footer id="piepagina"><hr size="1px" color="whitesmoke" /> <img src="imagenes/facebook.png" alt="face" width="22"/> <img src="imagenes/insta.png" alt="insta" width="21"/> <img src="imagenes/whatsapp.png" alt="wsp" width="18"/> Derechos reservados &COPY; 2022<address style="display: inline" > Tel 8898-7744 </address> </footer>
+    </body>
+</html>

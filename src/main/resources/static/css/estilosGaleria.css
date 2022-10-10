@@ -1,0 +1,125 @@
+
+/* 
+    Created on : Oct 6, 2022, 9:17:11 PM
+    Author     : zujeily
+*/
+
+/* Inicio de la pagina */
+#fondo {
+   height: 1800px;
+   background-image: url("https://wallpaperaccess.com/full/1131667.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-color: black;
+    
+}
+
+/*Solo detalles para el header*/
+#encabezado{
+    
+    position: relative;
+    align-content: center;
+    top: 70;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 40;
+    
+}
+/*Menu Inicial Configuracion */
+#MenuInicial{
+    
+    position: relative; 
+    top: 350;
+    font-size: 60;
+    align-content: center;
+    
+}
+/*submenu en Configuracion */
+.submenu a{
+    
+    position: relative; 
+    top: 183;
+    display: inline;
+    font-size: 20;
+    color: whitesmoke;
+    align-content: center;
+
+}
+#galeriasV1{
+    position: relative;
+    top: 250;   
+   
+}
+
+#ArtistasHL:hover{
+    color: whitesmoke; 
+}
+#RentLocationsHL:hover{
+    color: whitesmoke;
+}
+#ContactUSHL:hover{
+    color: whitesmoke;
+}
+/*Final footer*/
+#piepagina{
+
+    position: absolute;
+    bottom: -800;
+    left: 0;
+    height: 6%;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    color: whitesmoke;
+    }
+  /*configuracion de las imagenes en Artistas */ 
+  
+  img main{
+    width: 40%;
+    height: 40%;
+    object-fit: cover; 
+  }
+  .gallery {
+      position: relative;
+      top: 250;
+  
+  }
+  .ParragoPG h2{
+      position: relative;
+      color: appworkspace;
+      top: 250; 
+  }
+
+  .ParragoPG p{
+      position: relative;
+      color: whitesmoke;
+      top: 300; 
+      font-weight: bold;
+   
+  }
+  #tablePictures{
+      position: relative;
+      top: 300;
+      
+  }
+  #tablePHead {
+   color: whitesmoke;
+   
+  }
+  #Maps{
+      position: relative;
+      top: 400;
+    
+  }
+  
+  #Formulario{
+   position: relative;
+   top: 250;   
+   color: whitesmoke;   
+      
+  }
+  
